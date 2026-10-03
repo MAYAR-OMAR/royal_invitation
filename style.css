@@ -463,3 +463,18 @@ footer::after{content:"";position:absolute;left:0;right:0;bottom:0;height:min(60
   height: 100% !important;
   border: none !important;
 }
+#venue .map {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 220px !important;
+  margin: 12px auto !important;
+  border-radius: 14px !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+#venue .map iframe {
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+}
